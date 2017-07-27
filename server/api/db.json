@@ -1,41 +1,21 @@
 {
   "items": [
     {
-      "id": 1,
-      "name": "Item 1",
-      "description": "This is a description"
-    },
-    {
-      "id": 2,
-      "name": "Item 2",
-      "description": "This is a description"
-    },
-    {
       "id": 3,
       "name": "Item 3",
       "description": "This is a lovely item"
     },
     {
-      "name": "hghg",
-      "description": "gfhg",
-      "id": 4
+      "name": "asd",
+      "description": "asdsad",
+      "id": 5
     }
   ],
   "widgets": [
     {
-      "id": 1,
-      "name": "Widget 1",
-      "price": 100
-    },
-    {
-      "id": 2,
-      "name": "Widget 2",
-      "price": 200
-    },
-    {
-      "id": 3,
-      "name": "Widget 3",
-      "price": 300
+      "name": "fff",
+      "price": "123123123ddd",
+      "id": 13
     }
   ]
 }

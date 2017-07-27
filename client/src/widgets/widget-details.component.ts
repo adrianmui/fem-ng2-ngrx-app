@@ -1,6 +1,6 @@
+import { Widget } from './../common/models/widget.model';
 import {Component, Input, Output, EventEmitter, OnInit} from '@angular/core';
 import {FormGroup, Validators, FormBuilder} from '@angular/forms';
-import {Widget} from "./../common/models/widget.model.ts";
 
 @Component({
     selector: 'widget-details',
