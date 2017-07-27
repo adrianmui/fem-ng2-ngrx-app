@@ -15,7 +15,7 @@ import {AppStore} from '../common/models/appstore.model';
     <div class='mdl-grid items'>
       <div class='mdl-cell mdl-cell--6-col'>
         <widgets-list [widgets]='widgets'
-        (selected)='selectWidget($event)'
+        (selected)='createWidget($event)'
         (deleted)='deleteWidget($event)'></widgets-list>
       </div>
       <div class='mdl-cell mdl-cell--6-col'>
@@ -53,6 +53,11 @@ export class Widgets implements OnInit {
 
   deleteWidget(widget: Widget) {
     this._widgetsService.remove(widget);
+  }
+
+  createWidget(widget: Widget) {
+    this._widgetsService.add(widget);
+    this.resetWidget();
   }
 
   saveWidget(widget: Widget) {
